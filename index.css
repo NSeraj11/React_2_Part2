@@ -1,0 +1,223 @@
+.header-row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a{
+            color: blue;
+    }
+    
+    .header-row a{
+        position: relative;
+        top:25px;
+        left: -10px;
+        color: gray;
+        font-size: 12px;
+    
+    }
+    .header-row h1 {
+        text-decoration: underline;
+    }
+    
+    .header-row img {
+        position: relative;
+        right:-30px;
+        top: 25px;
+        height: 15px;
+        width: 15px;
+    }
+
+    .blog-row-1{
+            display: flex;
+            justify-content: center;
+    }
+
+    .row-1-article{
+            width: 45em;
+    }
+
+    .row-1-article h1{
+            font-size: 2em;
+    }
+
+    .row-1-article h5{
+            position: relative;
+            color: lightgrey;
+            top:-25px;
+    }
+
+    .row-1-article p{
+            position: relative;
+            top:-30px;
+
+    }
+
+    hr {
+        position: relative;
+        width: 95%;
+        left: -18px;
+        top:-20px;
+    }
+
+
+    .row-1-about{
+            position: relative;
+            right: -40px;
+            width: 10em;
+            padding:20px;
+            background-color: lightgrey;
+            height: 8em;
+            top:40px;
+    }
+
+    .row-1-about h3{
+            position: relative;
+            top:-30px;
+            font-style: italic;
+    }
+
+    .row-1-about p{
+            position: relative;
+            top:-50px;
+    }
+
+    .blog-small{
+            position: relative;
+            top:-35px;
+            border: 2px solid lightgrey;
+    }
+
+    .blog-small p{
+            position: relative;
+            top: -10px;
+    }
+
+    span{
+            font-weight: bold;
+    }
+
+    .blog-row-2 {
+            display: flex;
+            justify-content: center;
+    }
+
+    .row-2-article{
+            position: relative;
+            left: -30px;
+            width: 45em;
+    }
+
+    .row-2-article h2{
+            position: relative;
+            top:-50px;
+    }
+
+    .row-2-article p{
+            position: relative;
+            top: -60px;
+    }
+
+    .row-2-dates{
+            position: relative;
+            top:-250px;
+    }
+
+    .row-2-dates h3{
+            position: relative;
+            right:-30px;
+            top:40px;
+            font-style: italic;
+
+    }
+
+    .row-2-dates ul{
+            list-style-type: none;
+            position: relative;
+            top: 20px;
+            right: 10px;
+    }
+
+    .row-2-dates ul li a{
+            color: blue;
+    }
+
+    .blog-row-3{
+            display: flex;
+    }
+
+    .row-3-article{
+            position: relative;
+            width: 45em;
+            top:-250px;
+            left:170px;
+    }
+
+    .row-3-article code{
+            border: 2px solid lightgrey;
+            padding-right: 500px;
+    }
+
+    .row-3-article ul li{
+            margin: 10px 0;
+    }
+
+    .row-3-article ol li{
+            margin: 10px 0;
+    }
+
+    .row-3-elsewhere{
+            position: relative;
+            width: 10em;
+            top:-200px;
+            right: -200px;
+    }
+
+    .row-3-elsewhere h3{
+            position: relative;
+            right: -20px;
+            font-style: italic;
+    }
+
+    .row-3-elsewhere ul{
+            position: relative;
+            top: -10px;
+            list-style-type: none;
+    }
+
+    .row-3-elsewhere ul a {
+            color: blue;
+    }
+
+    .button-group{
+            display: flex;
+            position: relative;
+            top:-200px;
+            left:200px;
+    }
+
+    button{
+            padding:8px;
+            margin:5px;
+    }
+
+    .btn-older button{
+            background-color: transparent;
+            color: blue;
+            border-color: blue;
+            border-radius: 10px;
+    }
+
+    .btn-newer button {
+            background-color: transparent;
+            color: lightgrey;
+            border-color: lightgrey;
+            border-radius: 10px;
+    }
+
+    footer{
+            position: relative;
+            text-align: center;
+            color: gray;
+            background-color: lightgrey;
+            padding: 10px;
+    }
